@@ -9,5 +9,10 @@
 
 .fitxa {
   display: inline-block;
-  margin: 1rem 1rem 1rem 0;
+  //margin: 1rem 1rem 1rem 0;
+}
+
+/*sobrescriure estil material*/
+.mat-mdc-card-content {
+  padding: 16px;
 }
