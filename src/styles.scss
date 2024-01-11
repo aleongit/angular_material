@@ -10,3 +10,8 @@ html,
 body {
   height: 100%;
 }
+
+/*sobrescriure estil material*/
+.mat-mdc-card {
+  margin: 1rem 1rem 1rem 0;
+}
