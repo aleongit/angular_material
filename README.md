@@ -67,9 +67,20 @@ Would you like to proceed? Yes
 ? Set up global Angular Material typography styles? Yes
 ? Include the Angular animations module? Include and enable animations
 ```
+
+### test material components
 - test *card* <mat-card>
+- test *toolbar* <mat-toolbar>
+- test *menu* <mat-menu>
+
+
+### angular components created
 - `ng generate component card`
 - `ng generate component card-media`
+- `ng generate component toolbar`
+- `ng generate component menu`
+
+
 
 
 ## Doc
@@ -79,9 +90,18 @@ Would you like to proceed? Yes
 
 ### Angular Material - Theming
 - https://material.angular.io/guide/theming
+- https://stackoverflow.com/questions/46760306/get-angular-material-theme-color-scheme-palette-for-other-elements
 
 ### Angular Material - Components 
 - https://material.angular.io/components/card/overview
+- https://material.angular.io/components/toolbar/overview
+- https://material.angular.io/components/menu/overview
+- https://material.angular.io/components/button/overview
+- https://material.angular.io/components/icon/overview
+
+### Icons
+- https://developers.google.com/fonts/docs/material_icons
+- https://fonts.google.com/icons
 
 
 
