@@ -1,27 +1,83 @@
-# AngularMaterial
+## Introduction
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+TODO:
+- Test Angular Material
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Requeriments / Prerequisites
 
-## Build
+🖥️ node -v
+→ v18.16.0
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+🖥️ npm -v
+→ 9.8.1
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Dependencies
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- ng add @angular/material [16.2.12]
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Get Started
+
+- git clone https://github.com/aleongit/angular_material.git
+- cd angular_material
+- npm install
+- ng serve
+- http://localhost:4200/
+
+
+
+## Dev environment
+
+- node v18.16.0
+- npm 9.8.0
+- Visual Studio Code 1.85.1
+- git version 2.38.0.windows.1
+- Microsoft Windows [Versión 10.0.19045.3803]
+
+
+
+
+## Run
+
+- cd angular_material
+- ng serve
+- http://localhost:4200/
+
+
+
+
+## Project Steps
+
+- create new angular app `ng new poke_angular`
+```
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? SCSS
+```
+- add material `ng add @angular/material`
+```
+The package @angular/material@16.2.12 will be installed and executed.
+Would you like to proceed? Yes
+? Choose a prebuilt theme name, or "custom" for a custom theme: Indigo/Pink
+? Set up global Angular Material typography styles? Yes
+? Include the Angular animations module? Include and enable animations
+```
+
+
+
+
+## Doc
+
+### angular - material
+- https://material.angular.io/guide/getting-started
+
+
+
+
+
+
