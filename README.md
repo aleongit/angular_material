@@ -74,11 +74,13 @@ Would you like to proceed? Yes
 
 ## Doc
 
-### angular - material
+### Angular Material
 - https://material.angular.io/guide/getting-started
 
+### Angular Material - Theming
+- https://material.angular.io/guide/theming
 
-### angular - components
+### Angular Material - Components 
 - https://material.angular.io/components/card/overview
 
 
