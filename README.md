@@ -67,14 +67,19 @@ Would you like to proceed? Yes
 ? Set up global Angular Material typography styles? Yes
 ? Include the Angular animations module? Include and enable animations
 ```
-
-
+- test *card* <mat-card>
+- `ng generate component card`
+- `ng generate component card-media`
 
 
 ## Doc
 
 ### angular - material
 - https://material.angular.io/guide/getting-started
+
+
+### angular - components
+- https://material.angular.io/components/card/overview
 
 
 
