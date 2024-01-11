@@ -54,7 +54,7 @@ TODO:
 
 ## Project Steps
 
-- create new angular app `ng new angular_material`
+- create new angular app `ng new poke_angular`
 ```
 ? Would you like to add Angular routing? Yes
 ? Which stylesheet format would you like to use? SCSS
