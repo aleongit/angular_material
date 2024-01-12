@@ -4,8 +4,12 @@
   margin: 1rem;
   padding: 2rem;
   font-weight: bolder;
-  color: map-get($theme-primary, 500);
+  //color: map-get($theme-primary, 500);
   //color: map-get($theme-accent, 500);
   //color: map-get($theme-warn, 500);
+  color: var(--app-yellow-color);
+  //color: var(--app-primary-default);
+  //color: var(--app-primary-default-dark);
+  //background-color: var(--app-test-color);
   //color: rgba($color: black, $alpha: 0.8);
 }

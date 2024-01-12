@@ -1,5 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* for angular material version 16! */
+@use "sass:map";
+@use "@angular/material" as mat;
+@import "theme.scss";
+
+$color-config: mat.get-color-config($theme);
+
+$primary-palette: map.get($color-config, "primary");
+$accent-palette: map.get($color-config, "accent");
+$warn-palette: map.get($color-config, "warn");
+$is-dark-theme: map.get($color-config, "is-dark");
+
+$test-color: mat.get-color-from-palette($primary-palette, 50);
+$primary-default: mat.get-color-from-palette($primary-palette, default);
+
 body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   margin: 0;
@@ -14,4 +29,12 @@ body {
 /*sobrescriure estil material*/
 .mat-mdc-card {
   margin: 1rem 1rem 1rem 0;
+}
+
+/*CSS variables*/
+
+:root {
+  --app-test-color: #{$test-color};
+  --app-primary-default: #{$primary-default};
+  --app-yellow-color: gold;
 }
