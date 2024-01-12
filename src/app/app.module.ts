@@ -2,6 +2,13 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {
+  FormBuilder,
+  FormGroup,
+  Validators,
+  FormsModule,
+  ReactiveFormsModule,
+} from '@angular/forms';
 
 /*example components*/
 import { CardComponent } from './examples/card/card.component';
@@ -24,6 +31,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { ThemeSwitchComponent } from './shared/theme-switch/theme-switch.component';
 
 @NgModule({
   declarations: [
@@ -36,11 +44,13 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     IconComponent,
     ButtonComponent,
     SlideToggleComponent,
+    ThemeSwitchComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,

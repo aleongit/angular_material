@@ -89,6 +89,7 @@ Would you like to proceed? Yes
 - `ng generate component slide-toggle`
 
 - `ng generate component navigation`
+- `ng generate component theme-switch`
 
 
 
