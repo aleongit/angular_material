@@ -10,6 +10,7 @@ import { ToolbarComponent } from './examples/toolbar/toolbar.component';
 import { MenuComponent } from './examples/menu/menu.component';
 import { IconComponent } from './examples/icon/icon.component';
 import { ButtonComponent } from './examples/button/button.component';
+import { SlideToggleComponent } from './examples/slide-toggle/slide-toggle.component';
 
 /*shared components*/
 import { NavigationComponent } from './shared/navigation/navigation.component';
@@ -22,6 +23,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,7 @@ import { MatDividerModule } from '@angular/material/divider';
     NavigationComponent,
     IconComponent,
     ButtonComponent,
+    SlideToggleComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,6 +47,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatIconModule,
     MatMenuModule,
     MatDividerModule,
+    MatSlideToggleModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

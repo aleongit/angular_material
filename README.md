@@ -76,6 +76,7 @@ Would you like to proceed? Yes
 - toolbar `<mat-toolbar>`
 - icon `<mat-icon>`
 - button `<mat-button>`
+- slide toggle `<mat-slide-toggle>`
 
 
 ### angular components created
@@ -85,6 +86,7 @@ Would you like to proceed? Yes
 - `ng generate component toolbar`
 - `ng generate component icon`
 - `ng generate component button`
+- `ng generate component slide-toggle`
 
 - `ng generate component navigation`
 
@@ -115,6 +117,8 @@ Would you like to proceed? Yes
 - https://material.angular.io/components/icon/overview
 - https://material.angular.io/components/button/overview
 - https://material.angular.io/components/divider/overview
+- https://material.angular.io/components/slide-toggle/overview
+
 
 
 ### Material - Icons
