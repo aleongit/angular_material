@@ -1,8 +1,7 @@
 ## Introduction
 
 TODO:
-- Test Angular Material
-
+- Test Angular Material 16
 
 
 
@@ -18,6 +17,7 @@ TODO:
 
 ## Dependencies
 
+- angular 16
 - ng add @angular/material [16.2.12]
 
 
@@ -36,7 +36,6 @@ TODO:
 
 - node v18.16.0
 - npm 9.8.0
-- angular 16
 - Visual Studio Code 1.85.1
 - git version 2.38.0.windows.1
 - Microsoft Windows [Versión 10.0.19045.3803]
@@ -93,32 +92,37 @@ Would you like to proceed? Yes
 
 
 
-
 ## Doc
 
 ### Angular Material
-- https://material.angular.io/guide/getting-started
+- https://v16.material.angular.io/
+- https://v16.material.angular.io/guide/getting-started
+
+
+### Material - Theming [16]
+- https://v16.material.angular.io/guide/theming
+- https://v16.material.angular.io/guide/theming#defining-a-theme
+- https://v16.material.angular.io/guide/theming-your-components
+- https://v16.material.angular.io/guide/theming#multiple-themes-in-one-file
+- https://stackoverflow.com/questions/46760306/get-angular-material-theme-color-scheme-palette-for-other-elements
+- https://octoperf.com/blog/2021/01/08/angular-material-multiple-themes/#prerequisites
+- https://github.com/angular/components/blob/main/guides/duplicate-theming-styles.md
+
 
 
 ### Material - Colours
 - https://m2.material.io/design/color/the-color-system.html
 
 
-### Material - Theming
-- https://material.angular.io/guide/theming
-- https://stackoverflow.com/questions/46760306/get-angular-material-theme-color-scheme-palette-for-other-elements
-- https://octoperf.com/blog/2021/01/08/angular-material-multiple-themes/#prerequisites
-
-
 
 ### Material - Components 
-- https://material.angular.io/components/card/overview
-- https://material.angular.io/components/menu/overview
-- https://material.angular.io/components/toolbar/overview
-- https://material.angular.io/components/icon/overview
-- https://material.angular.io/components/button/overview
-- https://material.angular.io/components/divider/overview
-- https://material.angular.io/components/slide-toggle/overview
+- https://v16.material.angular.io/components/card/overview
+- https://v16.material.angular.io/components/menu/overview
+- https://v16.material.angular.io/components/toolbar/overview
+- https://v16.material.angular.io/components/icon/overview
+- https://v16.material.angular.io/components/button/overview
+- https://v16.material.angular.io/components/divider/overview
+- https://v16.material.angular.io/components/slide-toggle/overview
 
 
 
@@ -129,6 +133,13 @@ Would you like to proceed? Yes
 
 
 
+### @media prefers-color-scheme
+- https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+- https://www.ditdot.hr/en/dark-mode-website-tutorial
+- https://svenbudak.medium.com/how-to-implement-dark-light-mode-in-angular-mateiral-with-prefers-color-scheme-ce3e980e2ea5
+- https://blog.angulartraining.com/how-to-implement-a-dark-theme-with-css-and-angular-2cfd98b9455d
 
 
 
+## light / dark
+- https://dev.to/pahanperera/implement-light-dark-mode-in-angular-42ff
