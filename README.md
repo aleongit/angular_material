@@ -36,6 +36,7 @@ TODO:
 
 - node v18.16.0
 - npm 9.8.0
+- angular 16
 - Visual Studio Code 1.85.1
 - git version 2.38.0.windows.1
 - Microsoft Windows [Versión 10.0.19045.3803]
