@@ -70,12 +70,12 @@ Would you like to proceed? Yes
 ```
 
 ### test material components
-- card <mat-card>
-- toolbar <mat-toolbar>
-- menu <mat-menu>
-- toolbar <mat-toolbar>
-- icon <mat-icon>
-- button <mat-button>
+- card `<mat-card>`
+- toolbar `<mat-toolbar>`
+- menu `<mat-menu>`
+- toolbar `<mat-toolbar>`
+- icon `<mat-icon>`
+- button `<mat-button>`
 
 
 ### angular components created
