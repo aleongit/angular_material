@@ -70,16 +70,21 @@ Would you like to proceed? Yes
 ```
 
 ### test material components
-- test *card* <mat-card>
-- test *toolbar* <mat-toolbar>
-- test *menu* <mat-menu>
+- card <mat-card>
+- toolbar <mat-toolbar>
+- menu <mat-menu>
+- toolbar <mat-toolbar>
+- icon <mat-icon>
+- button <mat-button>
 
 
 ### angular components created
 - `ng generate component card`
 - `ng generate component card-media`
-- `ng generate component toolbar`
 - `ng generate component menu`
+- `ng generate component toolbar`
+- `ng generate component icon`
+- `ng generate component button`
 
 - `ng generate component navigation`
 
@@ -99,6 +104,9 @@ Would you like to proceed? Yes
 ### Material - Theming
 - https://material.angular.io/guide/theming
 - https://stackoverflow.com/questions/46760306/get-angular-material-theme-color-scheme-palette-for-other-elements
+- https://octoperf.com/blog/2021/01/08/angular-material-multiple-themes/#prerequisites
+
+
 
 ### Material - Components 
 - https://material.angular.io/components/card/overview
@@ -106,11 +114,13 @@ Would you like to proceed? Yes
 - https://material.angular.io/components/toolbar/overview
 - https://material.angular.io/components/icon/overview
 - https://material.angular.io/components/button/overview
+- https://material.angular.io/components/divider/overview
 
 
 ### Material - Icons
 - https://developers.google.com/fonts/docs/material_icons
 - https://fonts.google.com/icons
+- https://medium.com/ngconf/how-to-use-angular-materials-mat-icon-with-local-svg-images-b479134701af
 
 
 
