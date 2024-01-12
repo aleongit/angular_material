@@ -81,6 +81,8 @@ Would you like to proceed? Yes
 - `ng generate component toolbar`
 - `ng generate component menu`
 
+- `ng generate component navigation`
+
 
 
 
@@ -89,18 +91,24 @@ Would you like to proceed? Yes
 ### Angular Material
 - https://material.angular.io/guide/getting-started
 
-### Angular Material - Theming
+
+### Material - Colours
+- https://m2.material.io/design/color/the-color-system.html
+
+
+### Material - Theming
 - https://material.angular.io/guide/theming
 - https://stackoverflow.com/questions/46760306/get-angular-material-theme-color-scheme-palette-for-other-elements
 
-### Angular Material - Components 
+### Material - Components 
 - https://material.angular.io/components/card/overview
-- https://material.angular.io/components/toolbar/overview
 - https://material.angular.io/components/menu/overview
-- https://material.angular.io/components/button/overview
+- https://material.angular.io/components/toolbar/overview
 - https://material.angular.io/components/icon/overview
+- https://material.angular.io/components/button/overview
 
-### Icons
+
+### Material - Icons
 - https://developers.google.com/fonts/docs/material_icons
 - https://fonts.google.com/icons
 
