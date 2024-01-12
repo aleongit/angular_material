@@ -143,3 +143,10 @@ Would you like to proceed? Yes
 
 ## light / dark
 - https://dev.to/pahanperera/implement-light-dark-mode-in-angular-42ff
+
+
+
+## DOCUMENT
+- https://dev.to/ngconf/how-to-inject-document-in-angular-3d1m
+- https://stackoverflow.com/questions/37521298/how-to-inject-document-in-service
+- https://codigoencasa.com/10-funciones-utiles-de-angular-que-probablemente-nunca-hayas-utilizado/
