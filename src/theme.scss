@@ -75,9 +75,17 @@ $dark-theme: mat.define-dark-theme(
 //@include mat.all-component-themes($theme);
 @include mat.all-component-themes($light-theme);
 
+/*
 @media (prefers-color-scheme: dark) {
   // Use the `-color` mixins to only apply color styles without reapplying the same
   // typography and density styles.
   @include mat.all-component-colors($dark-theme);
 }
+*/
 
+// Include the dark color styles inside of a block with a CSS class. You can make this
+// CSS class whatever you want. In this example, any component inside of an element with
+// `.unicorn-dark-theme` will be affected by this alternate dark theme instead of the default theme.
+.dark-theme {
+  @include mat.all-component-colors($dark-theme);
+}
