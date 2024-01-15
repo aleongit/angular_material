@@ -10,16 +10,18 @@ import {
   ReactiveFormsModule,
 } from '@angular/forms';
 
-/*example components*/
+/*components*/
 import { CardComponent } from './components/card/card.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { IconComponent } from './components/icon/icon.component';
 import { ButtonComponent } from './components/button/button.component';
 import { SlideToggleComponent } from './components/slide-toggle/slide-toggle.component';
+import { ChipsComponent } from './components/chips/chips.component';
 
 /*shared components*/
 import { NavigationComponent } from './shared/navigation/navigation.component';
+import { ThemeSwitchComponent } from './shared/theme-switch/theme-switch.component';
 
 /*material*/
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -30,8 +32,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { ThemeSwitchComponent } from './shared/theme-switch/theme-switch.component';
-import { ChipsComponent } from './components/chips/chips.component';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,7 @@ import { ChipsComponent } from './components/chips/chips.component';
     ButtonComponent,
     SlideToggleComponent,
     ThemeSwitchComponent,
-    ChipsComponent,
+    //*ChipsComponent,
   ],
   imports: [
     BrowserModule,
@@ -58,6 +59,7 @@ import { ChipsComponent } from './components/chips/chips.component';
     MatMenuModule,
     MatDividerModule,
     MatSlideToggleModule,
+    MatChipsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
