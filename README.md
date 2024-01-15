@@ -79,6 +79,7 @@ Would you like to proceed? Yes
 - chips `<mat-chip>`
 - tabs `<mat-tab>`
 - table `<mat-table>`
+- stepper `<mat-stepper>`
 
 
 
@@ -92,6 +93,7 @@ Would you like to proceed? Yes
 - `ng generate component chips`
 - `ng generate component tabs`
 - `ng generate component table`
+- `ng generate component stepper`
 
 - `ng generate component navigation`
 - `ng generate component theme-switch`
@@ -116,11 +118,6 @@ Would you like to proceed? Yes
 
 
 
-### Material - Colours
-- https://m2.material.io/design/color/the-color-system.html
-
-
-
 ### Material - Components 
 - https://v16.material.angular.io/components/card/overview
 - https://v16.material.angular.io/components/menu/overview
@@ -132,6 +129,12 @@ Would you like to proceed? Yes
 - https://v16.material.angular.io/components/chips/overview
 - https://v16.material.angular.io/components/tabs/overview
 - https://v16.material.angular.io/components/table/overview
+- https://v16.material.angular.io/components/stepper/overview
+
+
+
+### Material - Colours
+- https://m2.material.io/design/color/the-color-system.html
 
 
 

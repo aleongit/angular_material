@@ -10,21 +10,6 @@ import {
   ReactiveFormsModule,
 } from '@angular/forms';
 
-/*components*/
-import { CardComponent } from './components/card/card.component';
-import { ToolbarComponent } from './components/toolbar/toolbar.component';
-import { MenuComponent } from './components/menu/menu.component';
-import { IconComponent } from './components/icon/icon.component';
-import { ButtonComponent } from './components/button/button.component';
-import { SlideToggleComponent } from './components/slide-toggle/slide-toggle.component';
-import { ChipsComponent } from './components/chips/chips.component';
-import { TabsComponent } from './components/tabs/tabs.component';
-import { TableComponent } from './components/table/table.component';
-
-/*shared components*/
-import { NavigationComponent } from './shared/navigation/navigation.component';
-import { ThemeSwitchComponent } from './shared/theme-switch/theme-switch.component';
-
 /*material*/
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
@@ -38,7 +23,23 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
+import { MatInputModule } from '@angular/material/input';
+
+/*shared components*/
+import { NavigationComponent } from './shared/navigation/navigation.component';
+import { ThemeSwitchComponent } from './shared/theme-switch/theme-switch.component';
+
+/*components*/
+import { CardComponent } from './components/card/card.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { IconComponent } from './components/icon/icon.component';
+import { ButtonComponent } from './components/button/button.component';
+import { SlideToggleComponent } from './components/slide-toggle/slide-toggle.component';
+import { TabsComponent } from './components/tabs/tabs.component';
+import { TableComponent } from './components/table/table.component';
+//import { ChipsComponent } from './components/chips/chips.component';
+//import { StepperComponent } from './components/stepper/stepper.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import {MatInputModule} from '@angular/material/input';
     ThemeSwitchComponent,
     TabsComponent,
     TableComponent,
-    //*ChipsComponent,
+    //StepperComponent, *standalone
+    //ChipsComponent, *standalone
   ],
   imports: [
     BrowserModule,

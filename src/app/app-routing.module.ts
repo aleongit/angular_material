@@ -10,6 +10,7 @@ import { SlideToggleComponent } from './components/slide-toggle/slide-toggle.com
 import { ChipsComponent } from './components/chips/chips.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { TableComponent } from './components/table/table.component';
+import { StepperComponent } from './components/stepper/stepper.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'chips', component: ChipsComponent },
   { path: 'tabs', component: TabsComponent },
   { path: 'table', component: TableComponent },
+  { path: 'stepper', component: StepperComponent },
 ];
 
 @NgModule({
