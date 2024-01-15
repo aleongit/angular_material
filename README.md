@@ -164,6 +164,8 @@ Would you like to proceed? Yes
 
 ## Angular - ViewChild
 - https://angular.io/api/core/ViewChild
+- https://www.digitalocean.com/community/tutorials/angular-viewchild-access-component-es
+- https://medium.com/@shravanvishwakarma5/how-to-use-viewchild-in-angular-fb020a9db030
 
 
 
