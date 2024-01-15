@@ -80,6 +80,7 @@ Would you like to proceed? Yes
 - tabs `<mat-tab>`
 - table `<mat-table>`
 - stepper `<mat-stepper>`
+- datepicker
 
 
 
@@ -94,6 +95,7 @@ Would you like to proceed? Yes
 - `ng generate component tabs`
 - `ng generate component table`
 - `ng generate component stepper`
+- `ng generate component datepicker`
 
 - `ng generate component navigation`
 - `ng generate component theme-switch`
@@ -134,6 +136,7 @@ Would you like to proceed? Yes
 - https://v16.material.angular.io/components/tabs/overview
 - https://v16.material.angular.io/components/table/overview
 - https://v16.material.angular.io/components/stepper/overview
+- https://v16.material.angular.io/components/datepicker/overview
 
 
 

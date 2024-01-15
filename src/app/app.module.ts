@@ -25,6 +25,8 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 
 /*shared components*/
 import { NavigationComponent } from './shared/navigation/navigation.component';
@@ -39,6 +41,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { SlideToggleComponent } from './components/slide-toggle/slide-toggle.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { TableComponent } from './components/table/table.component';
+import { DatepickerComponent } from './components/datepicker/datepicker.component';
 //import { ChipsComponent } from './components/chips/chips.component';
 //import { StepperComponent } from './components/stepper/stepper.component';
 
@@ -55,6 +58,7 @@ import { TableComponent } from './components/table/table.component';
     ThemeSwitchComponent,
     TabsComponent,
     TableComponent,
+    DatepickerComponent,
     //StepperComponent, *standalone
     //ChipsComponent, *standalone
   ],
@@ -76,6 +80,8 @@ import { TableComponent } from './components/table/table.component';
     MatTableModule,
     MatFormFieldModule,
     MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
