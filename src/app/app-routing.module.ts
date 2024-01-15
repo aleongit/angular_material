@@ -8,6 +8,7 @@ import { IconComponent } from './components/icon/icon.component';
 import { ButtonComponent } from './components/button/button.component';
 import { SlideToggleComponent } from './components/slide-toggle/slide-toggle.component';
 import { ChipsComponent } from './components/chips/chips.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'button', component: ButtonComponent },
   { path: 'slide-toggle', component: SlideToggleComponent },
   { path: 'chips', component: ChipsComponent },
+  { path: 'tabs', component: TabsComponent },
 ];
 
 @NgModule({
