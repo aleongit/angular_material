@@ -135,14 +135,22 @@ Would you like to proceed? Yes
 
 ### @media prefers-color-scheme
 - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
-- https://www.ditdot.hr/en/dark-mode-website-tutorial
-- https://svenbudak.medium.com/how-to-implement-dark-light-mode-in-angular-mateiral-with-prefers-color-scheme-ce3e980e2ea5
-- https://blog.angulartraining.com/how-to-implement-a-dark-theme-with-css-and-angular-2cfd98b9455d
-
 
 
 ## light / dark
+- https://www.ditdot.hr/en/dark-mode-website-tutorial
+- https://svenbudak.medium.com/how-to-implement-dark-light-mode-in-angular-mateiral-with-prefers-color-scheme-ce3e980e2ea5
+- https://blog.angulartraining.com/how-to-implement-a-dark-theme-with-css-and-angular-2cfd98b9455d
+- https://pkief.medium.com/automatic-dark-mode-detection-in-angular-material-8342917885a0
 - https://dev.to/pahanperera/implement-light-dark-mode-in-angular-42ff
+- https://dev.to/facurodriguez/dark-theme-en-angular-con-css-facil-3pp1
+- https://codebeyondlimits.com/articles/angular-theming-how-to-create-a-dynamic-theme-switcher-for-light-and-dark-mode
+- https://dev.to/pahanperera/implement-light-dark-mode-in-angular-42ff
+
+
+
+## CSS Variables
+- https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8
 
 
 
@@ -150,3 +158,8 @@ Would you like to proceed? Yes
 - https://dev.to/ngconf/how-to-inject-document-in-angular-3d1m
 - https://stackoverflow.com/questions/37521298/how-to-inject-document-in-service
 - https://codigoencasa.com/10-funciones-utiles-de-angular-que-probablemente-nunca-hayas-utilizado/
+
+
+
+## Angular Material Autocomplete with API Example
+- https://pkief.medium.com/automatic-dark-mode-detection-in-angular-material-8342917885a0
