@@ -35,5 +35,9 @@ body {
 :root {
   --app-test-color: #{$test-color};
   --app-primary-default: #{$primary-default};
+  --app-yellow-color: darkorange;
+}
+
+.dark-theme {
   --app-yellow-color: gold;
 }
