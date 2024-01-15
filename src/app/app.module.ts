@@ -11,12 +11,12 @@ import {
 } from '@angular/forms';
 
 /*example components*/
-import { CardComponent } from './examples/card/card.component';
-import { ToolbarComponent } from './examples/toolbar/toolbar.component';
-import { MenuComponent } from './examples/menu/menu.component';
-import { IconComponent } from './examples/icon/icon.component';
-import { ButtonComponent } from './examples/button/button.component';
-import { SlideToggleComponent } from './examples/slide-toggle/slide-toggle.component';
+import { CardComponent } from './components/card/card.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { IconComponent } from './components/icon/icon.component';
+import { ButtonComponent } from './components/button/button.component';
+import { SlideToggleComponent } from './components/slide-toggle/slide-toggle.component';
 
 /*shared components*/
 import { NavigationComponent } from './shared/navigation/navigation.component';
@@ -31,6 +31,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { ThemeSwitchComponent } from './shared/theme-switch/theme-switch.component';
+import { ChipsComponent } from './components/chips/chips.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { ThemeSwitchComponent } from './shared/theme-switch/theme-switch.compone
     ButtonComponent,
     SlideToggleComponent,
     ThemeSwitchComponent,
+    ChipsComponent,
   ],
   imports: [
     BrowserModule,

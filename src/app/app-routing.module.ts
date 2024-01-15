@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { CardComponent } from './examples/card/card.component';
-import { MenuComponent } from './examples/menu/menu.component';
-import { ToolbarComponent } from './examples/toolbar/toolbar.component';
-import { IconComponent } from './examples/icon/icon.component';
-import { ButtonComponent } from './examples/button/button.component';
-import { SlideToggleComponent } from './examples/slide-toggle/slide-toggle.component';
+import { CardComponent } from './components/card/card.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { IconComponent } from './components/icon/icon.component';
+import { ButtonComponent } from './components/button/button.component';
+import { SlideToggleComponent } from './components/slide-toggle/slide-toggle.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
