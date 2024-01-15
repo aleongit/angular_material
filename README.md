@@ -80,7 +80,7 @@ Would you like to proceed? Yes
 - tabs `<mat-tab>`
 - table `<mat-table>`
 - stepper `<mat-stepper>`
-- datepicker
+- datepicker `<mat-datepicker>`
 
 
 
