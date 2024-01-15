@@ -1,4 +1,4 @@
-import { ItemNavigation } from './interfaces/item-navigation';
+import { ItemNavigation } from '../interfaces/item-navigation';
 
 export const ITEMS: ItemNavigation[] = [
   {
@@ -54,6 +54,11 @@ export const ITEMS: ItemNavigation[] = [
   {
     name: 'stepper',
     url: '/stepper',
+    icon: 'done',
+  },
+  {
+    name: 'datepicker',
+    url: '/datepicker',
     icon: 'done',
   },
   {
