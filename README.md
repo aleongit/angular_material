@@ -76,16 +76,17 @@ Would you like to proceed? Yes
 - icon `<mat-icon>`
 - button `<mat-button>`
 - slide toggle `<mat-slide-toggle>`
+- chips `<mat-chip-set> <mat-chip>`
 
 
 ### angular components created
 - `ng generate component card`
-- `ng generate component card-media`
 - `ng generate component menu`
 - `ng generate component toolbar`
 - `ng generate component icon`
 - `ng generate component button`
 - `ng generate component slide-toggle`
+- `ng generate component chips`
 
 - `ng generate component navigation`
 - `ng generate component theme-switch`
@@ -123,6 +124,7 @@ Would you like to proceed? Yes
 - https://v16.material.angular.io/components/button/overview
 - https://v16.material.angular.io/components/divider/overview
 - https://v16.material.angular.io/components/slide-toggle/overview
+- https://v16.material.angular.io/components/chips/overview
 
 
 
@@ -132,9 +134,14 @@ Would you like to proceed? Yes
 - https://medium.com/ngconf/how-to-use-angular-materials-mat-icon-with-local-svg-images-b479134701af
 
 
-
 ### @media prefers-color-scheme
 - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+
+
+
+## CSS Variables
+- https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8
+
 
 
 ## light / dark
@@ -149,17 +156,21 @@ Would you like to proceed? Yes
 
 
 
-## CSS Variables
-- https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8
-
-
-
-## DOCUMENT
+## Angular - DOCUMENT
 - https://dev.to/ngconf/how-to-inject-document-in-angular-3d1m
 - https://stackoverflow.com/questions/37521298/how-to-inject-document-in-service
 - https://codigoencasa.com/10-funciones-utiles-de-angular-que-probablemente-nunca-hayas-utilizado/
 
 
+## Angular - ViewChild
+- https://angular.io/api/core/ViewChild
+
+
 
 ## Angular Material Autocomplete with API Example
 - https://pkief.medium.com/automatic-dark-mode-detection-in-angular-material-8342917885a0
+
+
+
+## How can I solve typescript error 'x' has no initializer and is not definitely assigned in the constructor?
+- https://stackoverflow.com/questions/66176831/how-can-i-solve-typescript-error-x-has-no-initializer-and-is-not-definitely-as
