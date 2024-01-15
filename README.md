@@ -76,7 +76,10 @@ Would you like to proceed? Yes
 - icon `<mat-icon>`
 - button `<mat-button>`
 - slide toggle `<mat-slide-toggle>`
-- chips `<mat-chip-set> <mat-chip>`
+- chips `<mat-chip>`
+- tabs `<mat-tab>`
+- table `<mat-table>`
+
 
 
 ### angular components created
@@ -87,6 +90,8 @@ Would you like to proceed? Yes
 - `ng generate component button`
 - `ng generate component slide-toggle`
 - `ng generate component chips`
+- `ng generate component tabs`
+- `ng generate component table`
 
 - `ng generate component navigation`
 - `ng generate component theme-switch`
@@ -125,6 +130,8 @@ Would you like to proceed? Yes
 - https://v16.material.angular.io/components/divider/overview
 - https://v16.material.angular.io/components/slide-toggle/overview
 - https://v16.material.angular.io/components/chips/overview
+- https://v16.material.angular.io/components/tabs/overview
+- https://v16.material.angular.io/components/table/overview
 
 
 

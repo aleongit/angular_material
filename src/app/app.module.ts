@@ -19,6 +19,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { SlideToggleComponent } from './components/slide-toggle/slide-toggle.component';
 import { ChipsComponent } from './components/chips/chips.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { TableComponent } from './components/table/table.component';
 
 /*shared components*/
 import { NavigationComponent } from './shared/navigation/navigation.component';
@@ -35,6 +36,9 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatTableModule } from '@angular/material/table';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -48,6 +52,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     SlideToggleComponent,
     ThemeSwitchComponent,
     TabsComponent,
+    TableComponent,
     //*ChipsComponent,
   ],
   imports: [
@@ -64,6 +69,9 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatSlideToggleModule,
     MatChipsModule,
     MatTabsModule,
+    MatTableModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
