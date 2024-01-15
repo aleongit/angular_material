@@ -99,6 +99,10 @@ Would you like to proceed? Yes
 - `ng generate component theme-switch`
 
 
+### angular serviced created
+- `ng generate service theme`
+- `ng generate service navigation`
+
 
 ## Doc
 
@@ -180,6 +184,11 @@ Would you like to proceed? Yes
 
 
 
+### Angular - OnInit
+- https://angular.io/api/core/OnInit
+
+
+
 ### Angular Material Autocomplete with API Example
 - https://pkief.medium.com/automatic-dark-mode-detection-in-angular-material-8342917885a0
 
@@ -187,3 +196,7 @@ Would you like to proceed? Yes
 
 ### How can I solve typescript error 'x' has no initializer and is not definitely assigned in the constructor?
 - https://stackoverflow.com/questions/66176831/how-can-i-solve-typescript-error-x-has-no-initializer-and-is-not-definitely-as
+
+
+### How To Read Local JSON Files In Angular: Different Ways To Do
+- https://www.thirdrocktechkno.com/blog/how-to-read-local-json-files-in-angular/

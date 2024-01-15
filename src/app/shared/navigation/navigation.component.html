@@ -11,53 +11,9 @@
   </button>
 
   <mat-menu #menu="matMenu" [overlapTrigger]="false">
-    <button mat-menu-item [routerLink]="['./']">
-      <mat-icon>home</mat-icon>
-      <span>Home</span>
-    </button>
-    <button mat-menu-item [routerLink]="['./card']">
-      <mat-icon>done</mat-icon>
-      <span>card</span>
-    </button>
-    <button mat-menu-item [routerLink]="['./menu']">
-      <mat-icon>done</mat-icon>
-      <span>menu</span>
-    </button>
-    <button mat-menu-item [routerLink]="['./toolbar']">
-      <mat-icon>done</mat-icon>
-      <span>toolbar</span>
-    </button>
-    <button mat-menu-item [routerLink]="['./icon']">
-      <mat-icon>done</mat-icon>
-      <span>icon</span>
-    </button>
-    <button mat-menu-item [routerLink]="['./button']">
-      <mat-icon>done</mat-icon>
-      <span>butoon</span>
-    </button>
-    <button mat-menu-item [routerLink]="['./slide-toggle']">
-      <mat-icon>done</mat-icon>
-      <span>slide-toggle</span>
-    </button>
-    <button mat-menu-item [routerLink]="['./chips']">
-      <mat-icon>done</mat-icon>
-      <span>chips</span>
-    </button>
-    <button mat-menu-item [routerLink]="['./tabs']">
-      <mat-icon>done</mat-icon>
-      <span>tabs</span>
-    </button>
-    <button mat-menu-item [routerLink]="['./table']">
-      <mat-icon>done</mat-icon>
-      <span>table</span>
-    </button>
-    <button mat-menu-item [routerLink]="['./stepper']">
-      <mat-icon>done</mat-icon>
-      <span>stepper</span>
-    </button>
-    <button mat-menu-item>
-      <mat-icon>exit_to_app</mat-icon>
-      <span>Logout</span>
+    <button *ngFor="let item of items" mat-menu-item [routerLink]="[item.url]">
+      <mat-icon>{{ item.icon }}</mat-icon>
+      <span>{{ item.name }}</span>
     </button>
   </mat-menu>
 
