@@ -1,0 +1,18 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+.fitxa {
+  display: inline-block;
+  //margin: 1rem 1rem 1rem 0;
+}
+
+/*sobrescriure estil material*/
+.mat-mdc-card-content {
+  padding: 16px;
+}

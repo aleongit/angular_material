@@ -12,7 +12,6 @@ import {
 
 /*example components*/
 import { CardComponent } from './examples/card/card.component';
-import { CardMediaComponent } from './examples/card-media/card-media.component';
 import { ToolbarComponent } from './examples/toolbar/toolbar.component';
 import { MenuComponent } from './examples/menu/menu.component';
 import { IconComponent } from './examples/icon/icon.component';
@@ -37,7 +36,6 @@ import { ThemeSwitchComponent } from './shared/theme-switch/theme-switch.compone
   declarations: [
     AppComponent,
     CardComponent,
-    CardMediaComponent,
     ToolbarComponent,
     MenuComponent,
     NavigationComponent,
