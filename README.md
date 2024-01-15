@@ -182,5 +182,5 @@ Would you like to proceed? Yes
 
 
 
-## How can I solve typescript error 'x' has no initializer and is not definitely assigned in the constructor?
+### How can I solve typescript error 'x' has no initializer and is not definitely assigned in the constructor?
 - https://stackoverflow.com/questions/66176831/how-can-i-solve-typescript-error-x-has-no-initializer-and-is-not-definitely-as
