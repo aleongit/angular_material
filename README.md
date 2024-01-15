@@ -146,12 +146,12 @@ Would you like to proceed? Yes
 
 
 
-## CSS Variables
+### CSS Variables
 - https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8
 
 
 
-## light / dark
+### light / dark
 - https://www.ditdot.hr/en/dark-mode-website-tutorial
 - https://svenbudak.medium.com/how-to-implement-dark-light-mode-in-angular-mateiral-with-prefers-color-scheme-ce3e980e2ea5
 - https://blog.angulartraining.com/how-to-implement-a-dark-theme-with-css-and-angular-2cfd98b9455d
@@ -163,20 +163,21 @@ Would you like to proceed? Yes
 
 
 
-## Angular - DOCUMENT
+### Angular - DOCUMENT
 - https://dev.to/ngconf/how-to-inject-document-in-angular-3d1m
 - https://stackoverflow.com/questions/37521298/how-to-inject-document-in-service
 - https://codigoencasa.com/10-funciones-utiles-de-angular-que-probablemente-nunca-hayas-utilizado/
 
 
-## Angular - ViewChild
+
+### Angular - ViewChild
 - https://angular.io/api/core/ViewChild
 - https://www.digitalocean.com/community/tutorials/angular-viewchild-access-component-es
 - https://medium.com/@shravanvishwakarma5/how-to-use-viewchild-in-angular-fb020a9db030
 
 
 
-## Angular Material Autocomplete with API Example
+### Angular Material Autocomplete with API Example
 - https://pkief.medium.com/automatic-dark-mode-detection-in-angular-material-8342917885a0
 
 
