@@ -99,6 +99,7 @@ Would you like to proceed? Yes
 
 - `ng generate component navigation`
 - `ng generate component theme-switch`
+- `ng generate component page-not-found`
 
 
 ### angular serviced created
@@ -203,3 +204,12 @@ Would you like to proceed? Yes
 
 ### How To Read Local JSON Files In Angular: Different Ways To Do
 - https://www.thirdrocktechkno.com/blog/how-to-read-local-json-files-in-angular/
+
+
+
+### Angular- RouterLinkActive
+- https://angular.io/api/router/RouterLinkActive
+
+
+### How to setup 404 page in angular routing ?
+- https://www.geeksforgeeks.org/how-to-setup-404-page-in-angular-routing/
