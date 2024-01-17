@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { RouterLinkActive } from '@angular/router';
 import { AppComponent } from './app.component';
 import {
   FormBuilder,
@@ -31,6 +32,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 /*shared components*/
 import { NavigationComponent } from './shared/navigation/navigation.component';
 import { ThemeSwitchComponent } from './shared/theme-switch/theme-switch.component';
+import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 
 /*components*/
 import { CardComponent } from './components/card/card.component';
@@ -59,12 +61,14 @@ import { DatepickerComponent } from './components/datepicker/datepicker.componen
     TabsComponent,
     TableComponent,
     DatepickerComponent,
+    PageNotFoundComponent,
     //StepperComponent, *standalone
     //ChipsComponent, *standalone
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterLinkActive,
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
