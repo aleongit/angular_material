@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { ItemNavigation } from '../interfaces/item-navigation';
-import { ITEMS } from '../constants/navigation';
+import { ItemNavigation } from '../interfaces/iterfaces';
+import { ITEMS } from '../utils/constants';
 
 @Injectable({
   providedIn: 'root',
