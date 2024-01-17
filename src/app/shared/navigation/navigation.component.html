@@ -1,24 +1,46 @@
 <mat-toolbar>
-  <button
-    mat-icon-button
-    class="example-icon"
-    aria-label="Example icon-button with menu icon"
-    [matMenuTriggerFor]="menu"
-    #menuTrigger="matMenuTrigger"
-    (click)="menuTrigger.openMenu()"
-  >
-    <mat-icon>menu</mat-icon>
-  </button>
-
-  <mat-menu #menu="matMenu" [overlapTrigger]="false">
-    <button *ngFor="let item of items" mat-menu-item [routerLink]="[item.url]">
-      <mat-icon>{{ item.icon }}</mat-icon>
-      <span>{{ item.name }}</span>
+  <mat-toolbar-row>
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+      [matMenuTriggerFor]="menu"
+      #menuTrigger="matMenuTrigger"
+      (click)="menuTrigger.openMenu()"
+    >
+      <mat-icon>menu</mat-icon>
     </button>
-  </mat-menu>
 
-  <span>My App</span>
-  <span class="example-spacer"></span>
+    <mat-menu #menu="matMenu" [overlapTrigger]="false">
+      <button
+        *ngFor="let item of items"
+        mat-menu-item
+        [routerLink]="[item.url]"
+        routerLinkActive="activeButton"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <mat-icon>{{ item.icon }}</mat-icon>
+        <span>{{ item.name }}</span>
+      </button>
+    </mat-menu>
 
-  <app-theme-switch />
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <app-theme-switch />
+  </mat-toolbar-row>
+
+  <mat-toolbar-row class="chips-toolbar">
+    <mat-chip-listbox aria-label="Navigation Chips">
+      <mat-chip-option
+        *ngFor="let item of items; let i = index"
+        [routerLink]="[item.url]"
+        routerLinkActive="activeButton"
+        [routerLinkActiveOptions]="{ exact: true }"
+        #rla="routerLinkActive"
+        [color]="item.color"
+        selected="{{ rla.isActive }}"
+        >{{ item.name }}
+      </mat-chip-option>
+    </mat-chip-listbox>
+  </mat-toolbar-row>
 </mat-toolbar>

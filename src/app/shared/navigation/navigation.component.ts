@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationService } from '../../services/navigation.service';
-import { ItemNavigation } from '../../interfaces/item-navigation';
+import { ItemNavigation } from '../../interfaces/iterfaces';
 
 @Component({
   selector: 'app-navigation',
@@ -9,6 +9,7 @@ import { ItemNavigation } from '../../interfaces/item-navigation';
 })
 export class NavigationComponent implements OnInit {
   items: ItemNavigation[] = [];
+  chipSelected: boolean = false;
 
   constructor(private navigation: NavigationService) {}
 
