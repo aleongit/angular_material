@@ -12,6 +12,7 @@ import { TabsComponent } from './components/tabs/tabs.component';
 import { TableComponent } from './components/table/table.component';
 import { StepperComponent } from './components/stepper/stepper.component';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
+import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'table', component: TableComponent },
   { path: 'stepper', component: StepperComponent },
   { path: 'datepicker', component: DatepickerComponent },
+  { path: '**', component: PageNotFoundComponent },
 ];
 
 @NgModule({
