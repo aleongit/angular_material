@@ -8,10 +8,10 @@ TODO:
 ## Requeriments / Prerequisites
 
 🖥️ node -v
-→ v18.16.0
+→ v20.11.1
 
 🖥️ npm -v
-→ 9.8.1
+→ 10.5.0
 
 
 
@@ -34,11 +34,11 @@ TODO:
 
 ## Dev environment
 
-- node v18.16.0
-- npm 9.8.0
-- Visual Studio Code 1.85.1
+- node v20.11.1
+- npm 10.5.0
+- Visual Studio Code 1.87.0
 - git version 2.38.0.windows.1
-- Microsoft Windows [Versión 10.0.19045.3803]
+- Microsoft Windows [Versión 10.0.19045.4046]
 
 
 
@@ -105,6 +105,21 @@ Would you like to proceed? Yes
 ### angular serviced created
 - `ng generate service theme`
 - `ng generate service navigation`
+
+
+### update to Angular 17 / Material 17
+- update node and npm `https://nodejs.org/en`
+- clean old modules in npm `npm uninstall *`
+- update angular CLI `npm install -g @angular/cli`
+- or `npm install -g @angular/cli@latest`
+- update Angular `ng update`
+- `ng update @angular/cdk`
+- `ng update @angular/cli`
+- `ng update @angular/core`
+- `ng update @angular/material`
+- check Angular version `ng version`
+
+
 
 
 ## Doc
