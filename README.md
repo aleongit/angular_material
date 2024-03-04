@@ -109,6 +109,7 @@ Would you like to proceed? Yes
 
 ### update to Angular 17 / Material 17
 - update node and npm `https://nodejs.org/en`
+- update angular `https://update.angular.io/?v=16.0-17.0`
 - clean old modules in npm `npm uninstall *`
 - update angular CLI `npm install -g @angular/cli`
 - or `npm install -g @angular/cli@latest`
