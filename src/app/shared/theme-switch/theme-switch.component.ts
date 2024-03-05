@@ -13,8 +13,8 @@ export class ThemeSwitchComponent {
 
   public selectTheme(): void {
     this.isChecked
-      ? this.themeService.selectDarkTheme()
-      : this.themeService.selectLightTheme();
+      ? this.themeService.setDarkTheme()
+      : this.themeService.setLightTheme();
     //console.log(this.theme);
   }
 }
