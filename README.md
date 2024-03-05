@@ -17,8 +17,8 @@ TODO:
 
 ## Dependencies
 
-- angular 16
-- ng add @angular/material [16.2.12]
+- angular 17
+- ng add @angular/material [17.2.1]
 
 
 
@@ -126,15 +126,15 @@ Would you like to proceed? Yes
 ## Doc
 
 ### Angular Material
-- https://v16.material.angular.io/
-- https://v16.material.angular.io/guide/getting-started
+- https://material.angular.io/
+- https://material.angular.io/guide/getting-started
 
 
 ### Material - Theming [16]
-- https://v16.material.angular.io/guide/theming
-- https://v16.material.angular.io/guide/theming#defining-a-theme
-- https://v16.material.angular.io/guide/theming-your-components
-- https://v16.material.angular.io/guide/theming#multiple-themes-in-one-file
+- https://material.angular.io/guide/theming
+- https://material.angular.io/guide/theming#defining-a-theme
+- https://material.angular.io/guide/theming-your-components
+- https://material.angular.io/guide/theming#multiple-themes-in-one-file
 - https://stackoverflow.com/questions/46760306/get-angular-material-theme-color-scheme-palette-for-other-elements
 - https://octoperf.com/blog/2021/01/08/angular-material-multiple-themes/#prerequisites
 - https://github.com/angular/components/blob/main/guides/duplicate-theming-styles.md
@@ -142,18 +142,18 @@ Would you like to proceed? Yes
 
 
 ### Material - Components 
-- https://v16.material.angular.io/components/card/overview
-- https://v16.material.angular.io/components/menu/overview
-- https://v16.material.angular.io/components/toolbar/overview
-- https://v16.material.angular.io/components/icon/overview
-- https://v16.material.angular.io/components/button/overview
-- https://v16.material.angular.io/components/divider/overview
-- https://v16.material.angular.io/components/slide-toggle/overview
-- https://v16.material.angular.io/components/chips/overview
-- https://v16.material.angular.io/components/tabs/overview
-- https://v16.material.angular.io/components/table/overview
-- https://v16.material.angular.io/components/stepper/overview
-- https://v16.material.angular.io/components/datepicker/overview
+- https://material.angular.io/components/card/overview
+- https://material.angular.io/components/menu/overview
+- https://material.angular.io/components/toolbar/overview
+- https://material.angular.io/components/icon/overview
+- https://material.angular.io/components/button/overview
+- https://material.angular.io/components/divider/overview
+- https://material.angular.io/components/slide-toggle/overview
+- https://material.angular.io/components/chips/overview
+- https://material.angular.io/components/tabs/overview
+- https://material.angular.io/components/table/overview
+- https://material.angular.io/components/stepper/overview
+- https://material.angular.io/components/datepicker/overview
 
 
 
