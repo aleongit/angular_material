@@ -13,9 +13,10 @@ import { TableComponent } from './components/table/table.component';
 import { StepperComponent } from './components/stepper/stepper.component';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
+import { HomeComponent } from './shared/home/home.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: '', component:HomeComponent },
   { path: 'card', component: CardComponent },
   { path: 'menu', component: MenuComponent },
   { path: 'toolbar', component: ToolbarComponent },
