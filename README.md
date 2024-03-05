@@ -168,6 +168,14 @@ Would you like to proceed? Yes
 - https://medium.com/ngconf/how-to-use-angular-materials-mat-icon-with-local-svg-images-b479134701af
 
 
+
+### Material - Typography
+- https://material.angular.io/guide/typography
+- https://angular-material.dev/courses/m2-ng-components/m2-ng-components/modify-typography
+- https://stackoverflow.com/questions/43747518/angular-material-and-changing-fonts
+
+
+
 ### @media prefers-color-scheme
 - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
 

@@ -31,6 +31,42 @@ $theme: mat.define-light-theme(
   )
 );
 
+// Define a level
+$my-custom-level: mat.define-typography-level(
+  /*
+  $font-family: Roboto,
+  $font-weight: 400,
+  $font-size: 1.2rem,
+  $line-height: 1,
+  $letter-spacing: normal,
+  */
+    $font-size: 1.2rem
+);
+
+// Typography config
+$typography-config: mat.define-typography-config(
+  /*
+  $font-family: '"Open Sans", "Helvetica Neue", sans-serif',
+  $headline-1: mat.define-typography-level(112px, 112px, 300, $letter-spacing: -0.05em),
+  $headline-2: mat.define-typography-level(56px, 56px, 400, $letter-spacing: -0.02em),
+  $headline-3: mat.define-typography-level(45px, 48px, 400, $letter-spacing: -0.005em),
+  $headline-4: mat.define-typography-level(34px, 40px, 400),
+  $headline-5: mat.define-typography-level(24px, 32px, 400),
+  $headline-6: mat.define-typography-level(20px, 32px, 400),
+  $subtitle-1: mat.define-typography-level(16px, 28px, 400),
+  $body-1: $my-custom-level,
+  $body-2: $my-custom-level,
+  $subtitle-2: mat.define-typography-level(16px, 28px, 400),
+  $caption: mat.define-typography-level(12px, 20px, 400),
+  $button: mat.define-typography-level(14px, 14px, 500),
+  */
+  $headline-1: mat.define-typography-level(3rem, 3rem, 300),
+  $headline-4: $my-custom-level,
+);
+
+//Using typography styles in your application
+@include mat.typography-hierarchy($typography-config);
+
 // Define a light theme
 $light-theme: mat.define-light-theme(
   (
@@ -38,8 +74,9 @@ $light-theme: mat.define-light-theme(
       primary: mat.define-palette(mat.$indigo-palette),
       accent: mat.define-palette(mat.$pink-palette),
     ),
-    // Only include `typography` and `density` in the default dark theme.
-    typography: mat.define-typography-config(),
+    // Only include `typography` and `density` in the default theme.
+    //typography: mat.define-typography-config(),
+    typography: $typography-config,
     density: 0,
   )
 );
