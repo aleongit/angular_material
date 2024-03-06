@@ -1,7 +1,9 @@
 ## Introduction
 
-TODO:
-- Test Angular Material 16
+Checkpoints:
+
+- Angular 17
+- Angular Material 17
 
 
 
@@ -217,3 +219,7 @@ Would you like to proceed? Yes
 
 ### How to setup 404 page in angular routing ?
 - https://www.geeksforgeeks.org/how-to-setup-404-page-in-angular-routing/
+
+
+### How can I console.log the value of a observable?
+- https://stackoverflow.com/questions/39044156/how-can-i-console-log-the-value-of-a-observable
