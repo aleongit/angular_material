@@ -5,15 +5,43 @@
 @use "@angular/material" as mat;
 @import "theme.scss";
 
+//get config
 $color-config: mat.get-color-config($theme);
 
+//get palettes from config
 $primary-palette: map.get($color-config, "primary");
 $accent-palette: map.get($color-config, "accent");
 $warn-palette: map.get($color-config, "warn");
 $is-dark-theme: map.get($color-config, "is-dark");
 
+//get gray color palette
+//de 50 a 900
+$gray-palette: mat.define-palette(mat.$gray-palette);
+//@debug $gray-palette;
+
+//get yellow color palette
+// de 50 a 900 i A100, A200, A400, A700
+$yellow-palette: mat.define-palette(mat.$yellow-palette);
+@debug $yellow-palette;
+
+//get colors from palettes
 $test-color: mat.get-color-from-palette($primary-palette, 50);
 $primary-default: mat.get-color-from-palette($primary-palette, default);
+
+//gray
+$gray-color: mat.get-color-from-palette($gray-palette, default); //default = 500
+$gray-color-50: mat.get-color-from-palette($gray-palette, 50);
+$gray-color-600: mat.get-color-from-palette($gray-palette, 600);
+$gray-color-900: mat.get-color-from-palette($gray-palette, 900);
+//@debug $gray-color;
+
+//yellow
+$yellow-color: mat.get-color-from-palette($yellow-palette, default); //default = 500
+//$yellow-color-200: mat.get-color-from-palette($yellow-palette, 200);
+//$yellow-color-800: mat.get-color-from-palette($yellow-palette, 800);
+@debug $yellow-color;
+
+
 
 body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -31,21 +59,21 @@ p {
 }
 
 /*sobrescriure estil material*/
-.mat-mdc-card {
-  margin: 1rem 1rem 1rem 0;
-}
-
 .mat-divider {
   margin: 1rem 0 !important;
 }
+
+
 
 /*CSS variables*/
 :root {
   --app-test-color: #{$test-color};
   --app-primary-default: #{$primary-default};
-  --app-yellow-color: darkorange;
+  --app-yellow-color: #{mat.get-color-from-palette($yellow-palette, 800)};
+  --app-gray-color: #{$gray-color};
 }
 
 .dark-theme {
-  --app-yellow-color: gold;
+  --app-yellow-color: #{mat.get-color-from-palette($yellow-palette, 300)};
+  --app-gray-color: #{$gray-color-600};
 }

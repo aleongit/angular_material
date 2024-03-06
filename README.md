@@ -139,9 +139,12 @@ Would you like to proceed? Yes
 
 
 
-### Material - Colours
+### Material - Colors / Palettes
 - https://m2.material.io/design/color/the-color-system.html
-
+- https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
+- https://fireflysemantics.medium.com/understanding-the-angular-material-define-palette-sass-function-406696e74a98
+- https://levelup.gitconnected.com/defining-your-own-theme-in-angular-material-8a4a6ffad400
+- https://angular-material.dev/courses/m2-ng-components/m2-ng-components/create-custom-theme
 
 
 ### Material - Icons
