@@ -3,6 +3,7 @@
 /* for angular material version 16! */
 @use "sass:map";
 @use "@angular/material" as mat;
+
 @import "theme.scss";
 
 //get config
@@ -22,7 +23,7 @@ $gray-palette: mat.define-palette(mat.$gray-palette);
 //get yellow color palette
 // de 50 a 900 i A100, A200, A400, A700
 $yellow-palette: mat.define-palette(mat.$yellow-palette);
-@debug $yellow-palette;
+//@debug $yellow-palette;
 
 //get colors from palettes
 $test-color: mat.get-color-from-palette($primary-palette, 50);
@@ -39,10 +40,12 @@ $gray-color-900: mat.get-color-from-palette($gray-palette, 900);
 $yellow-color: mat.get-color-from-palette($yellow-palette, default); //default = 500
 //$yellow-color-200: mat.get-color-from-palette($yellow-palette, 200);
 //$yellow-color-800: mat.get-color-from-palette($yellow-palette, 800);
-@debug $yellow-color;
+//@debug $yellow-color;
 
 
 
+
+/* main_____________________________________________________________ */
 body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   margin: 0;
@@ -58,9 +61,38 @@ p {
   margin: 1.2rem 0 !important;
 }
 
+
+
+
+/* Material ____________________________________________________*/
 /*sobrescriure estil material*/
 .mat-divider {
   margin: 1rem 0 !important;
+}
+
+.mat-mdc-card-content {
+  padding: 16px;
+}
+
+
+
+
+/* layout___________________________________________________ */
+.fitxa {
+  &-wrapper {
+    border-radius: 4px;
+    margin: 24px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+  }
+
+  &-header {
+    &-title {
+      padding: 0 0.5rem 1rem;
+      //color: #0000008a;
+      color: var(--app-gray-color);
+    }
+  }
 }
 
 
