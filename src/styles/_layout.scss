@@ -1,0 +1,17 @@
+/* layout___________________________________________________ */
+.fitxa {
+  &-wrapper {
+    border-radius: 4px;
+    margin: 24px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+  }
+
+  &-header {
+    &-title {
+      padding: 0 0.5rem 1rem;
+      //color: #0000008a;
+      color: var(--app-gray-color);
+    }
+  }
+}

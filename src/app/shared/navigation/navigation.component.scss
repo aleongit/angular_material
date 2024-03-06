@@ -1,4 +1,4 @@
-@import "../../../theme.scss";
+@use "theme" as theme;
 
 .example-spacer {
   flex: 1 1 auto;
@@ -6,7 +6,7 @@
 
 .activeButton {
   //background-color: gold;
-  background-color: map-get($theme-primary, 100);
+  background-color: map-get(theme.$theme-primary, 100);
 }
 
 @media (max-width: 599px) {
