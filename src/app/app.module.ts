@@ -36,7 +36,6 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
 import { HomeComponent } from './shared/home/home.component';
 
 /*components*/
-import { CardComponent } from './components/card/card.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { IconComponent } from './components/icon/icon.component';
@@ -45,14 +44,11 @@ import { SlideToggleComponent } from './components/slide-toggle/slide-toggle.com
 import { TabsComponent } from './components/tabs/tabs.component';
 import { TableComponent } from './components/table/table.component';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
-//import { ChipsComponent } from './components/chips/chips.component';
-//import { StepperComponent } from './components/stepper/stepper.component';
-//import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent,
     ToolbarComponent,
     MenuComponent,
     NavigationComponent,
@@ -68,6 +64,7 @@ import { DatepickerComponent } from './components/datepicker/datepicker.componen
     //StepperComponent, *standalone
     //ChipsComponent, *standalone
     //AutocompleteComponent *standalone,
+    //CardComponent,
   ],
   imports: [
     BrowserModule,
