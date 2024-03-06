@@ -1,5 +1,5 @@
 import { ItemNavigation, MaterialColor } from '../interfaces/iterfaces';
-import { getRandomMaterialColor } from '../utils/helpers'
+import { getRandomMaterialColor } from '../utils/helpers';
 
 export const COLORS: MaterialColor[] = [
   { name: 'none', color: undefined },
@@ -82,11 +82,15 @@ export const ITEMS: ItemNavigation[] = [
     color: getRandomMaterialColor(),
   },
   {
+    name: 'autocomplete',
+    url: '/autocomplete',
+    icon: 'done',
+    color: getRandomMaterialColor(),
+  },
+  {
     name: 'Logout',
     url: '/logout',
     icon: 'exit_to_app',
     color: getRandomMaterialColor(),
   },
 ];
-
-

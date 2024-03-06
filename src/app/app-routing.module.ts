@@ -14,9 +14,10 @@ import { StepperComponent } from './components/stepper/stepper.component';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 import { HomeComponent } from './shared/home/home.component';
+import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 
 const routes: Routes = [
-  { path: '', component:HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'card', component: CardComponent },
   { path: 'menu', component: MenuComponent },
   { path: 'toolbar', component: ToolbarComponent },
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'table', component: TableComponent },
   { path: 'stepper', component: StepperComponent },
   { path: 'datepicker', component: DatepickerComponent },
+  { path: 'autocomplete', component: AutocompleteComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
 

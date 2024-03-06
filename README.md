@@ -68,44 +68,6 @@ Would you like to proceed? Yes
 ? Include the Angular animations module? Include and enable animations
 ```
 
-### test material components
-- card `<mat-card>`
-- toolbar `<mat-toolbar>`
-- menu `<mat-menu>`
-- toolbar `<mat-toolbar>`
-- icon `<mat-icon>`
-- button `<mat-button>`
-- slide toggle `<mat-slide-toggle>`
-- chips `<mat-chip>`
-- tabs `<mat-tab>`
-- table `<mat-table>`
-- stepper `<mat-stepper>`
-- datepicker `<mat-datepicker>`
-
-
-
-### angular components created
-- `ng generate component card`
-- `ng generate component menu`
-- `ng generate component toolbar`
-- `ng generate component icon`
-- `ng generate component button`
-- `ng generate component slide-toggle`
-- `ng generate component chips`
-- `ng generate component tabs`
-- `ng generate component table`
-- `ng generate component stepper`
-- `ng generate component datepicker`
-
-- `ng generate component navigation`
-- `ng generate component theme-switch`
-- `ng generate component page-not-found`
-
-
-### angular serviced created
-- `ng generate service theme`
-- `ng generate service navigation`
-
 
 ### update to Angular 17 / Material 17
 - update node and npm `https://nodejs.org/en`
@@ -119,6 +81,23 @@ Would you like to proceed? Yes
 - `ng update @angular/core`
 - `ng update @angular/material`
 - check Angular version `ng version`
+
+
+
+### test material components
+- card `<mat-card>`
+- toolbar `<mat-toolbar>`
+- menu `<mat-menu>`
+- toolbar `<mat-toolbar>`
+- icon `<mat-icon>`
+- button `<mat-button>`
+- slide toggle `<mat-slide-toggle>`
+- chips `<mat-chip>`
+- tabs `<mat-tab>`
+- table `<mat-table>`
+- stepper `<mat-stepper>`
+- datepicker `<mat-datepicker>`
+- autocomplete `</mat-autocomplete>`
 
 
 
@@ -154,6 +133,7 @@ Would you like to proceed? Yes
 - https://material.angular.io/components/table/overview
 - https://material.angular.io/components/stepper/overview
 - https://material.angular.io/components/datepicker/overview
+- https://material.angular.io/components/autocomplete/overview
 
 
 

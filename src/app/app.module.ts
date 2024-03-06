@@ -12,7 +12,6 @@ import {
 } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-
 /*material*/
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
@@ -29,7 +28,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
-
 
 /*shared components*/
 import { NavigationComponent } from './shared/navigation/navigation.component';
@@ -49,6 +47,7 @@ import { TableComponent } from './components/table/table.component';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
 //import { ChipsComponent } from './components/chips/chips.component';
 //import { StepperComponent } from './components/stepper/stepper.component';
+//import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 
 @NgModule({
   declarations: [
@@ -68,6 +67,7 @@ import { DatepickerComponent } from './components/datepicker/datepicker.componen
     HomeComponent,
     //StepperComponent, *standalone
     //ChipsComponent, *standalone
+    //AutocompleteComponent *standalone,
   ],
   imports: [
     BrowserModule,
