@@ -12,6 +12,7 @@ import {
 } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+
 /*material*/
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
@@ -29,10 +30,12 @@ import { MatInputModule } from '@angular/material/input';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 
+
 /*shared components*/
 import { NavigationComponent } from './shared/navigation/navigation.component';
 import { ThemeSwitchComponent } from './shared/theme-switch/theme-switch.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
+import { HomeComponent } from './shared/home/home.component';
 
 /*components*/
 import { CardComponent } from './components/card/card.component';
@@ -62,6 +65,7 @@ import { DatepickerComponent } from './components/datepicker/datepicker.componen
     TableComponent,
     DatepickerComponent,
     PageNotFoundComponent,
+    HomeComponent,
     //StepperComponent, *standalone
     //ChipsComponent, *standalone
   ],
