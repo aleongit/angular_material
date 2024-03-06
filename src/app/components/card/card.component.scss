@@ -1,3 +1,5 @@
+//@use "../../../theme.scss"; //no necessari per variables css (var)
+
 .example-card {
   max-width: 400px;
 }
@@ -7,12 +9,24 @@
   background-size: cover;
 }
 
-.fitxa {
-  display: inline-block;
-  //margin: 1rem 1rem 1rem 0;
-}
-
 /*sobrescriure estil material*/
 .mat-mdc-card-content {
   padding: 16px;
+}
+
+.fitxa {
+  &-wrapper {
+    border-radius: 4px;
+    margin: 24px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+  }
+
+  &-header {
+    &-title {
+      padding: 0 0.5rem 1rem;
+      //color: #0000008a;
+      color: var(--app-gray-color);
+    }
+  }
 }
