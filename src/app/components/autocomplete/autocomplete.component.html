@@ -25,9 +25,8 @@
   </mat-card-content>
 </mat-card>
 
-<mat-divider></mat-divider>
 <!-- Highlight the first autocomplete option -->
-<mat-card>
+<mat-card class="separa">
   <mat-card-header>
     <mat-card-title>Highlight the first autocomplete option</mat-card-title>
   </mat-card-header>
@@ -50,6 +49,75 @@
         </mat-autocomplete>
       </mat-form-field>
       <p>TEST: {{ filteredOptions | async | json }}</p>
+    </form>
+  </mat-card-content>
+</mat-card>
+
+<!-- Display value autocomplete -->
+<mat-card class="separa">
+  <mat-card-header>
+    <mat-card-title>Display value autocomplete</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label>Assignee</mat-label>
+        <input
+          type="text"
+          matInput
+          [formControl]="myControlUser"
+          [matAutocomplete]="autoUser"
+        />
+        <mat-autocomplete #autoUser="matAutocomplete" [displayWith]="displayFn">
+          @for (option of filteredOptionsUser | async; track option) {
+          <mat-option [value]="option">{{ option.name }}</mat-option>
+          }
+        </mat-autocomplete>
+      </mat-form-field>
+      <p>TEST: {{ filteredOptionsUser | async | json }}</p>
+    </form>
+  </mat-card-content>
+</mat-card>
+
+<!-- TODO: Autocomplete overview -->
+<mat-card class="separa">
+  <mat-card-header>
+    <mat-card-title>Autocomplete overview</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label>State</mat-label>
+        <input
+          matInput
+          aria-label="State"
+          [matAutocomplete]="autoStates"
+          [formControl]="stateCtrl"
+        />
+        <mat-autocomplete #autoStates="matAutocomplete">
+          @for (state of filteredStates | async; track state) {
+          <mat-option [value]="state.name">
+            <img
+              alt=""
+              class="example-option-img"
+              [src]="state.flag"
+              height="25"
+            />
+            <span>{{ state.name }}</span> |
+            <small>Population: {{ state.population }}</small>
+          </mat-option>
+          }
+        </mat-autocomplete>
+      </mat-form-field>
+
+      <br />
+
+      <mat-slide-toggle
+        [checked]="stateCtrl.disabled"
+        (change)="stateCtrl.disabled ? stateCtrl.enable() : stateCtrl.disable()"
+      >
+        Disable Input?
+      </mat-slide-toggle>
     </form>
   </mat-card-content>
 </mat-card>
