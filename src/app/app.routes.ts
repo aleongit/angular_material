@@ -1,5 +1,4 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes } from '@angular/router';
 
 import { CardComponent } from './components/card/card.component';
 import { MenuComponent } from './components/menu/menu.component';
@@ -16,7 +15,7 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
 import { HomeComponent } from './shared/home/home.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 
-const routes: Routes = [
+export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'card', component: CardComponent },
   { path: 'menu', component: MenuComponent },
@@ -32,9 +31,3 @@ const routes: Routes = [
   { path: 'autocomplete', component: AutocompleteComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
-})
-export class AppRoutingModule {}

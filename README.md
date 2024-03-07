@@ -2,8 +2,9 @@
 
 Checkpoints:
 
-- Angular 17
-- Angular Material 17
+- Angular 16 to 17
+- Angular Material 16 to 17
+- NgModule to standalone
 
 
 
@@ -226,3 +227,7 @@ Would you like to proceed? Yes
 
 ### How can I console.log the value of a observable?
 - https://stackoverflow.com/questions/39044156/how-can-i-console-log-the-value-of-a-observable
+
+
+### Angular - Enabling the animations module
+- https://angular.io/guide/animations

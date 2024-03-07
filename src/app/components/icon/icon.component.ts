@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
+import { NgStyle } from '@angular/common';
 import { DomSanitizer } from '@angular/platform-browser';
-import { MatIconRegistry } from '@angular/material/icon';
+import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 
 const THUMBUP_ICON =
   `
@@ -16,6 +17,8 @@ const THUMBUP_ICON =
   selector: 'app-icon',
   templateUrl: './icon.component.html',
   styleUrls: ['./icon.component.scss'],
+  standalone: true,
+  imports: [MatIconModule, NgStyle],
 })
 export class IconComponent {
   /* exemple icon SVG

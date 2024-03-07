@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
-
-import { MatTableDataSource } from '@angular/material/table';
+import { MatTableDataSource, MatTableModule } from '@angular/material/table';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatDividerModule } from '@angular/material/divider';
 
 export interface PeriodicElement {
   name: string;
@@ -26,6 +28,13 @@ const ELEMENT_DATA: PeriodicElement[] = [
   selector: 'app-table',
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.scss'],
+  standalone: true,
+  imports: [
+    MatFormFieldModule,
+    MatInputModule,
+    MatTableModule,
+    MatDividerModule,
+  ],
 })
 export class TableComponent {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
