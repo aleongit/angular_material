@@ -100,7 +100,7 @@ Would you like to proceed? Yes
 - table `<mat-table>`
 - stepper `<mat-stepper>`
 - datepicker `<mat-datepicker>`
-- autocomplete `</mat-autocomplete>`
+- autocomplete `<mat-autocomplete>`
 
 
 
@@ -112,7 +112,7 @@ Would you like to proceed? Yes
 - https://material.angular.io/guide/getting-started
 
 
-### Material - Theming [16]
+### Material - Theming
 - https://material.angular.io/guide/theming
 - https://material.angular.io/guide/theming#defining-a-theme
 - https://material.angular.io/guide/theming-your-components
