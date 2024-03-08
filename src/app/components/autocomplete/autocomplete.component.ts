@@ -87,7 +87,19 @@ export class AutocompleteComponent implements OnInit {
     },
   ];
 
+  //test
+  test = [1, 2, 3, 4, 5, 6];
+
   ngOnInit() {
+    //test
+    console.log('test!');
+    console.log(this.test.slice());
+    console.log(
+      this.test.filter((value) => {
+        return value % 2 === 0;
+      })
+    );
+
     //for 'first'
     this.filteredOptions = this.myControlFirst.valueChanges.pipe(
       startWith(''),
