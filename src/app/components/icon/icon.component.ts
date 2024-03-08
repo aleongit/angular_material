@@ -3,6 +3,7 @@ import { NgStyle } from '@angular/common';
 import { DomSanitizer } from '@angular/platform-browser';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 
+/*for SVG Icon */
 const THUMBUP_ICON =
   `
   <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px">
@@ -21,12 +22,10 @@ const THUMBUP_ICON =
   imports: [MatIconModule, NgStyle],
 })
 export class IconComponent {
-  /* exemple icon SVG
-   *
-   */
-
+  //test
   myVariableColor = 'rgba(90, 162, 164, 0.8)';
 
+  /* for SVG Icon */
   constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
     // Note that we provide the icon here as a string literal here due to a limitation in
     // Stackblitz. If you want to provide the icon from a URL, you can use:
