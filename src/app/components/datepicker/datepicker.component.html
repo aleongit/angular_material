@@ -1,7 +1,129 @@
-<mat-form-field>
-  <mat-label>Choose a date</mat-label>
-  <input matInput [matDatepicker]="picker" />
-  <mat-hint>MM/DD/YYYY</mat-hint>
-  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-  <mat-datepicker #picker></mat-datepicker>
-</mat-form-field>
+<!-- Basic datepicker -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Basic datepicker</div>
+  </div>
+  <mat-form-field>
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="picker" />
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+</div>
+
+<!-- Datepicker touch UI -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Datepicker touch UI</div>
+  </div>
+  <mat-form-field class="example-full-width">
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="pickerUI" />
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle
+      matIconSuffix
+      [for]="pickerUI"
+    ></mat-datepicker-toggle>
+    <mat-datepicker touchUi #pickerUI></mat-datepicker>
+  </mat-form-field>
+</div>
+
+<!-- Datepicker inline calendar example -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Datepicker inline calendar example</div>
+  </div>
+  <mat-card class="demo-inline-calendar-card">
+    <mat-calendar [(selected)]="selected"></mat-calendar>
+  </mat-card>
+  <p>Selected date: {{ selected }}</p>
+</div>
+
+<!-- Date range picker forms integration -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Date range picker forms integration</div>
+  </div>
+  <mat-form-field>
+    <mat-label>Enter a date range</mat-label>
+    <mat-date-range-input [formGroup]="range" [rangePicker]="pickerForm">
+      <input matStartDate formControlName="start" placeholder="Start date" />
+      <input matEndDate formControlName="end" placeholder="End date" />
+    </mat-date-range-input>
+    <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle
+      matIconSuffix
+      [for]="pickerForm"
+    ></mat-datepicker-toggle>
+    <mat-date-range-picker #pickerForm></mat-date-range-picker>
+
+    @if (range.controls.start.hasError('matStartDateInvalid')) {
+    <mat-error>Invalid start date</mat-error>
+    } @if (range.controls.end.hasError('matEndDateInvalid')) {
+    <mat-error>Invalid end date</mat-error>
+    }
+  </mat-form-field>
+
+  <p>Selected range: {{ range.value | json }}</p>
+</div>
+
+<!-- Datepicker with custom date classes -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Datepicker with custom date classes</div>
+  </div>
+  <mat-form-field class="example-full-width">
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="pickerClass" />
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle
+      matIconSuffix
+      [for]="pickerClass"
+    ></mat-datepicker-toggle>
+    <mat-datepicker [dateClass]="dateClass" #pickerClass></mat-datepicker>
+  </mat-form-field>
+</div>
+
+<!-- Datepicker with min & max validation -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Datepicker with min & max validation</div>
+  </div>
+  <mat-form-field class="example-full-width">
+    <mat-label>Choose a date</mat-label>
+    <input
+      matInput
+      [min]="minDate"
+      [max]="maxDate"
+      [matDatepicker]="pickerMinMax"
+    />
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle
+      matIconSuffix
+      [for]="pickerMinMax"
+    ></mat-datepicker-toggle>
+    <mat-datepicker #pickerMinMax></mat-datepicker>
+  </mat-form-field>
+</div>
+
+<!-- Datepicker with filter validation -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Datepicker with filter validation</div>
+  </div>
+  <mat-form-field class="example-full-width">
+    <mat-label>Choose a date</mat-label>
+    <input
+      matInput
+      [matDatepickerFilter]="myFilter"
+      [matDatepicker]="pickerFilter"
+    />
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle
+      matIconSuffix
+      [for]="pickerFilter"
+    ></mat-datepicker-toggle>
+    <mat-datepicker #pickerFilter></mat-datepicker>
+  </mat-form-field>
+</div>

@@ -1,0 +1,21 @@
+.demo-inline-calendar-card {
+  width: 300px;
+}
+
+button.example-custom-date-class {
+  background: lightskyblue;
+  border: 1px solid black;
+  top: 5%;
+  left: 5%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 90%;
+  height: 90%;
+  line-height: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 999px;
+}

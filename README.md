@@ -231,3 +231,7 @@ Would you like to proceed? Yes
 
 ### Angular - Enabling the animations module
 - https://angular.io/guide/animations
+
+
+### MatDatePicker start week on monday
+- https://stackoverflow.com/questions/45019317/matdatepicker-start-week-on-monday
