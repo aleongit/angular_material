@@ -101,6 +101,7 @@ Would you like to proceed? Yes
 - stepper `<mat-stepper>`
 - datepicker `<mat-datepicker>`
 - autocomplete `<mat-autocomplete>`
+- dialog `<mat-dialog-content>`
 
 
 
@@ -137,6 +138,7 @@ Would you like to proceed? Yes
 - https://material.angular.io/components/stepper/overview
 - https://material.angular.io/components/datepicker/overview
 - https://material.angular.io/components/autocomplete/overview
+- https://material.angular.io/components/dialog/overview
 
 
 
