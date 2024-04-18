@@ -7,6 +7,7 @@ import {
   MatDialogClose,
   MatDialogContent,
   MatDialogTitle,
+  MatDialogModule,
 } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
@@ -22,7 +23,13 @@ export interface DialogData {
 @Component({
   selector: 'app-dialog',
   standalone: true,
-  imports: [MatFormFieldModule, MatInputModule, FormsModule, MatButtonModule],
+  imports: [
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    MatButtonModule,
+  ],
   templateUrl: './dialog.component.html',
   styleUrl: './dialog.component.scss',
 })
@@ -59,6 +66,15 @@ export class DialogComponent {
     dialogRef.afterClosed().subscribe((result) => {
       console.log('The dialog was closed');
       this.animal = result;
+    });
+  }
+
+  /* for Dialog Content */
+  openDialogContent() {
+    const dialogRef = this.dialog.open(DialogContent);
+
+    dialogRef.afterClosed().subscribe((result) => {
+      console.log(`Dialog result: ${result}`);
     });
   }
 }
@@ -121,3 +137,12 @@ export class DialogOverview {
     this.dialogRef.close();
   }
 }
+
+/* for Dialog Content */
+@Component({
+  selector: 'dialog-content',
+  templateUrl: 'dialogs/dialog-content.html',
+  standalone: true,
+  imports: [MatDialogModule, MatButtonModule],
+})
+export class DialogContent {}
