@@ -3,7 +3,7 @@
   <div class="fitxa-header">
     <div class="fitxa-header-title">Dialog elements</div>
   </div>
-  <button mat-button (click)="openDialog()">Launch dialog</button>
+  <button mat-raised-button (click)="openDialog()">Launch dialog</button>
 </div>
 
 <!-- Dialog Animations -->
@@ -11,10 +11,35 @@
   <div class="fitxa-header">
     <div class="fitxa-header-title">Dialog Animations</div>
   </div>
-  <button mat-raised-button (click)="openDialogAnimation('0ms', '0ms')">
-    Open dialog without animation
-  </button>
-  <button mat-raised-button (click)="openDialogAnimation('3000ms', '1500ms')">
-    Open dialog slowly
-  </button>
+  <div class="botonera">
+    <button mat-raised-button (click)="openDialogAnimation('0ms', '0ms')">
+      Open dialog without animation
+    </button>
+    <button mat-raised-button (click)="openDialogAnimation('3000ms', '1500ms')">
+      Open dialog slowly
+    </button>
+  </div>
+</div>
+
+<!-- Dialog Overview -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Dialog Overview</div>
+  </div>
+  <ol>
+    <li>
+      <mat-form-field>
+        <mat-label>What's your name?</mat-label>
+        <input matInput [(ngModel)]="name" />
+      </mat-form-field>
+    </li>
+    <li>
+      <button mat-raised-button (click)="openDialogOverview()">Pick one</button>
+    </li>
+    @if (animal) {
+    <li class="separa">
+      You chose: <em>{{ animal }}</em>
+    </li>
+    }
+  </ol>
 </div>
