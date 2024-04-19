@@ -61,6 +61,7 @@ $typography-config: mat.define-typography-config(
   $button: mat.define-typography-level(14px, 14px, 500),
   */
   $headline-1: mat.define-typography-level(3rem, 3rem, 300),
+  $subtitle-1: mat.define-typography-level(16px, 28px, 600),
   $headline-4: $my-custom-level,
 );
 
