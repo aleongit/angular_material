@@ -20,6 +20,11 @@ export interface DialogData {
   name: string;
 }
 
+/* for Dialog Injecting Data */
+export interface DialogInjectingData {
+  animal: 'panda' | 'unicorn' | 'lion';
+}
+
 @Component({
   selector: 'app-dialog',
   standalone: true,
@@ -77,12 +82,21 @@ export class DialogComponent {
       console.log(`Dialog result: ${result}`);
     });
   }
+
+  /* for Dialog Content */
+  openDialogData() {
+    this.dialog.open(DialogData, {
+      data: {
+        animal: 'lion',
+      },
+    });
+  }
 }
 
 /* for Dialog elements */
 @Component({
   selector: 'dialog-elements',
-  templateUrl: 'dialogs/dialog-elements.html',
+  templateUrl: 'dialogs.html/dialog-elements.html',
   standalone: true,
   imports: [
     MatDialogTitle,
@@ -97,7 +111,7 @@ export class DialogElements {}
 /* for Dialog animations */
 @Component({
   selector: 'dialog-animations',
-  templateUrl: 'dialogs/dialog-animations.html',
+  templateUrl: 'dialogs.html/dialog-animations.html',
   standalone: true,
   imports: [
     MatButtonModule,
@@ -114,7 +128,7 @@ export class DialogAnimations {
 /* for Dialog Overview */
 @Component({
   selector: 'dialog-overview',
-  templateUrl: 'dialogs/dialog-overview.html',
+  templateUrl: 'dialogs.html/dialog-overview.html',
   standalone: true,
   imports: [
     MatFormFieldModule,
@@ -141,8 +155,19 @@ export class DialogOverview {
 /* for Dialog Content */
 @Component({
   selector: 'dialog-content',
-  templateUrl: 'dialogs/dialog-content.html',
+  templateUrl: 'dialogs.html/dialog-content.html',
   standalone: true,
   imports: [MatDialogModule, MatButtonModule],
 })
 export class DialogContent {}
+
+/* for Dialog Injecting Data */
+@Component({
+  selector: 'dialog-data',
+  templateUrl: 'dialogs.html/dialog-data.html',
+  standalone: true,
+  imports: [MatDialogTitle, MatDialogContent],
+})
+export class DialogData {
+  constructor(@Inject(MAT_DIALOG_DATA) public data: DialogInjectingData) {}
+}
