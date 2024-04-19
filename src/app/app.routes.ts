@@ -15,6 +15,7 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
 import { HomeComponent } from './shared/home/home.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 import { DialogComponent } from './components/dialog/dialog.component';
+import { FormFieldComponent } from './components/form-field/form-field.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -31,5 +32,6 @@ export const routes: Routes = [
   { path: 'datepicker', component: DatepickerComponent },
   { path: 'autocomplete', component: AutocompleteComponent },
   { path: 'dialog', component: DialogComponent },
+  { path: 'form-field', component: FormFieldComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
