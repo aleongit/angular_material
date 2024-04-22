@@ -239,3 +239,11 @@ Would you like to proceed? Yes
 
 ### MatDatePicker start week on monday
 - https://stackoverflow.com/questions/45019317/matdatepicker-start-week-on-monday
+
+
+### merge - RxJS
+- https://www.learnrxjs.io/learn-rxjs/operators/combination/merge
+
+
+### tap - RxJS
+- https://rxjs.dev/api/operators/tap
