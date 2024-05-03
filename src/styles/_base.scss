@@ -18,6 +18,13 @@ main {
   margin-top: 120px;
   overflow-y: auto;
 }
+
+@media (max-width: 899px) {
+  main {
+    margin-top: 160px;
+  }
+}
+
 @media (max-width: 599px) {
   main {
     margin-top: 200px;
