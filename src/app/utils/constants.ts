@@ -106,6 +106,12 @@ export const ITEMS: ItemNavigation[] = [
     color: getRandomMaterialColor(),
   },
   {
+    name: 'progress-bar',
+    url: '/progress-bar',
+    icon: 'done',
+    color: getRandomMaterialColor(),
+  },
+  {
     name: 'Logout',
     url: '/logout',
     icon: 'exit_to_app',

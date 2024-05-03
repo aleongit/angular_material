@@ -103,6 +103,7 @@ Would you like to proceed? Yes
 - autocomplete `<mat-autocomplete>`
 - dialog `<mat-dialog-content>`
 - form field `<mat-form-field>`
+- progress bar `<mat-progress-bar>`
 
 
 
