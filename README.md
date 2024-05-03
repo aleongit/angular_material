@@ -104,7 +104,7 @@ Would you like to proceed? Yes
 - dialog `<mat-dialog-content>`
 - form field `<mat-form-field>`
 - progress bar `<mat-progress-bar>`
-
+- select `<mat-select>`
 
 
 
@@ -142,6 +142,8 @@ Would you like to proceed? Yes
 - https://material.angular.io/components/autocomplete/overview
 - https://material.angular.io/components/dialog/overview
 - https://material.angular.io/components/form-field/overview
+- https://material.angular.io/components/progress-bar/overview
+- https://material.angular.io/components/select/overview
 
 
 
