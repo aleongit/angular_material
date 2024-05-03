@@ -18,6 +18,7 @@ import { DialogComponent } from './components/dialog/dialog.component';
 import { FormFieldComponent } from './components/form-field/form-field.component';
 import { PaginatorComponent } from './components/paginator/paginator.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { SelectComponent } from './components/select/select.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -37,5 +38,6 @@ export const routes: Routes = [
   { path: 'form-field', component: FormFieldComponent },
   { path: 'paginator', component: PaginatorComponent },
   { path: 'progress-bar', component: ProgressBarComponent },
+  { path: 'select', component: SelectComponent },
   { path: '**', component: PageNotFoundComponent },
 ];

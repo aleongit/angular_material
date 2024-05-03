@@ -112,6 +112,12 @@ export const ITEMS: ItemNavigation[] = [
     color: getRandomMaterialColor(),
   },
   {
+    name: 'select',
+    url: '/select',
+    icon: 'done',
+    color: getRandomMaterialColor(),
+  },
+  {
     name: 'Logout',
     url: '/logout',
     icon: 'exit_to_app',
