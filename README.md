@@ -108,6 +108,7 @@ Would you like to proceed? Yes
 - radio button `<mat-radio-button>`
 - checkbox `<mat-checkbox>`
 - snack bar `MatSnackBar` 
+- tooltip `matTooltip`
 
 
 
@@ -150,6 +151,7 @@ Would you like to proceed? Yes
 - https://material.angular.io/components/radio/overview
 - https://material.angular.io/components/checkbox/overview
 - https://material.angular.io/components/snack-bar/overview
+- https://material.angular.io/components/tooltip/overview
 
 
 

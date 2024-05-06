@@ -1,0 +1,32 @@
+<!-- Basic tooltip -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Basic tooltip</div>
+  </div>
+  <button
+    mat-raised-button
+    matTooltip="Info about the action"
+    aria-label="Button that displays a tooltip when focused or hovered over"
+  >
+    Action
+  </button>
+</div>
+
+<!-- Tooltip with a changing message -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Tooltip with a changing message</div>
+  </div>
+  <mat-form-field class="example-user-input">
+    <mat-label>Tooltip message</mat-label>
+    <input matInput [formControl]="message" />
+  </mat-form-field>
+
+  <button
+    mat-raised-button
+    [matTooltip]="message.value || ''"
+    aria-label="Button that displays a tooltip with a custom message"
+  >
+    Action
+  </button>
+</div>

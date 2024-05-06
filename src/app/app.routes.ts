@@ -22,6 +22,7 @@ import { SelectComponent } from './components/select/select.component';
 import { RadioButtonComponent } from './components/radio-button/radio-button.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
 import { SnackbarComponent } from './components/snackbar/snackbar.component';
+import { TooltipComponent } from './components/tooltip/tooltip.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -45,5 +46,6 @@ export const routes: Routes = [
   { path: 'radio-button', component: RadioButtonComponent },
   { path: 'checkbox', component: CheckboxComponent },
   { path: 'snackbar', component: SnackbarComponent },
+  { path: 'tooltip', component: TooltipComponent },
   { path: '**', component: PageNotFoundComponent },
 ];

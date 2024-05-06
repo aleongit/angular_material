@@ -136,6 +136,12 @@ export const ITEMS: ItemNavigation[] = [
     color: getRandomMaterialColor(),
   },
   {
+    name: 'tooltip',
+    url: '/tooltip',
+    icon: 'done',
+    color: getRandomMaterialColor(),
+  },
+  {
     name: 'Logout',
     url: '/logout',
     icon: 'exit_to_app',
