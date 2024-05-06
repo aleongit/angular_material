@@ -107,6 +107,7 @@ Would you like to proceed? Yes
 - select `<mat-select>`
 - radio button `<mat-radio-button>`
 - checkbox `<mat-checkbox>`
+- snack bar `MatSnackBar` 
 
 
 
@@ -148,7 +149,7 @@ Would you like to proceed? Yes
 - https://material.angular.io/components/select/overview
 - https://material.angular.io/components/radio/overview
 - https://material.angular.io/components/checkbox/overview
-
+- https://material.angular.io/components/snack-bar/overview
 
 
 

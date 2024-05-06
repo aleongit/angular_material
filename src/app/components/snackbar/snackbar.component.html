@@ -1,0 +1,73 @@
+<!-- Basic snack-bar -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Basic snack-bar</div>
+  </div>
+  <mat-form-field>
+    <mat-label>Message</mat-label>
+    <input matInput value="Disco party!" #message />
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Action</mat-label>
+    <input matInput value="Dance" #action />
+  </mat-form-field>
+
+  <button
+    mat-stroked-button
+    (click)="openSnackBar(message.value, action.value)"
+  >
+    Show snack-bar
+  </button>
+</div>
+
+<!-- Snack-bar with configurable position -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Snack-bar with configurable position</div>
+  </div>
+  <mat-form-field>
+    <mat-label>Horizontal position</mat-label>
+    <mat-select [(value)]="horizontalPosition">
+      <mat-option value="start">Start</mat-option>
+      <mat-option value="center">Center</mat-option>
+      <mat-option value="end">End</mat-option>
+      <mat-option value="left">Left</mat-option>
+      <mat-option value="right">Right</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Vertical position</mat-label>
+    <mat-select [(value)]="verticalPosition">
+      <mat-option value="top">Top</mat-option>
+      <mat-option value="bottom">Bottom</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <button
+    mat-stroked-button
+    (click)="openSnackBarPosition()"
+    aria-label="Show an example snack-bar"
+  >
+    Pool party!
+  </button>
+</div>
+
+<!-- Snack-bar with a custom component -->
+<div class="fitxa-wrapper">
+  <div class="fitxa-header">
+    <div class="fitxa-header-title">Snack-bar with a custom component</div>
+  </div>
+  <mat-form-field>
+    <mat-label>Snack bar duration (seconds)</mat-label>
+    <input type="number" [(ngModel)]="durationInSeconds" matInput />
+  </mat-form-field>
+
+  <button
+    mat-stroked-button
+    (click)="openSnackBarCustom()"
+    aria-label="Show an example snack-bar"
+  >
+    Pizza party
+  </button>
+</div>

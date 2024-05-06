@@ -21,6 +21,7 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
 import { SelectComponent } from './components/select/select.component';
 import { RadioButtonComponent } from './components/radio-button/radio-button.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
+import { SnackbarComponent } from './components/snackbar/snackbar.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -43,5 +44,6 @@ export const routes: Routes = [
   { path: 'select', component: SelectComponent },
   { path: 'radio-button', component: RadioButtonComponent },
   { path: 'checkbox', component: CheckboxComponent },
+  { path: 'snackbar', component: SnackbarComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
