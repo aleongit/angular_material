@@ -106,6 +106,7 @@ Would you like to proceed? Yes
 - progress bar `<mat-progress-bar>`
 - select `<mat-select>`
 - radio button `<mat-radio-button>`
+- checkbox `<mat-checkbox>`
 
 
 
@@ -146,6 +147,7 @@ Would you like to proceed? Yes
 - https://material.angular.io/components/progress-bar/overview
 - https://material.angular.io/components/select/overview
 - https://material.angular.io/components/radio/overview
+- https://material.angular.io/components/checkbox/overview
 
 
 

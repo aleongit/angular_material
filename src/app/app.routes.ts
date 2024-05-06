@@ -20,6 +20,7 @@ import { PaginatorComponent } from './components/paginator/paginator.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { SelectComponent } from './components/select/select.component';
 import { RadioButtonComponent } from './components/radio-button/radio-button.component';
+import { CheckboxComponent } from './components/checkbox/checkbox.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -41,5 +42,6 @@ export const routes: Routes = [
   { path: 'progress-bar', component: ProgressBarComponent },
   { path: 'select', component: SelectComponent },
   { path: 'radio-button', component: RadioButtonComponent },
+  { path: 'checkbox', component: CheckboxComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
