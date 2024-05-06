@@ -19,6 +19,7 @@ import { FormFieldComponent } from './components/form-field/form-field.component
 import { PaginatorComponent } from './components/paginator/paginator.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { SelectComponent } from './components/select/select.component';
+import { RadioButtonComponent } from './components/radio-button/radio-button.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -39,5 +40,6 @@ export const routes: Routes = [
   { path: 'paginator', component: PaginatorComponent },
   { path: 'progress-bar', component: ProgressBarComponent },
   { path: 'select', component: SelectComponent },
+  { path: 'radio-button', component: RadioButtonComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
